@@ -1,5 +1,9 @@
 Welcome to my github
 
+nombre: Santiago Cecconato
+
+nº alumno: 18340/1
+
 
 aca prodras admirar como se eleva majestuosamente mi github 
 
