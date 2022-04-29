@@ -37,12 +37,12 @@ def encontre_pais(str_paises, pais_elegido) -> bool:
 #verifico si el pais ingresado esta en la columna country, si esta se agrega a la lista tipo_show
 def tipo_show_un_pais(lis_paises, pais_elegido, show_type) -> list:
 
-    lis_show = []
+    lis_show = [show_type for country in lis_paises if encontre_pais(country, pais_elegido)]
     for country in lis_paises:
         if encontre_pais(country, pais_elegido):
             lis_show.append(show_type)
 
-    return lis_show
+    return
     #itero sobre la lista de "country" y envio el str a encontre_pais
     #return list(map(lambda x : encontre_pais(x, pais_elegido), lis_paises))
 
